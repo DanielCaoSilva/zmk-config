@@ -16,9 +16,9 @@
             compatible = "zmk,behavior-macro";
             label = "Strong_Maybe";
             #binding-cells = <0>;
-            bindings = <&kp CAPSLOCK &kp T &kp CAPSLOCK &kp H &kp CAPSLOCK &kp I &kp DOLLAR &kp V &kp CAPS &kp NUMBER_3 &kp R &kp CAPS &kp Y &kp CAPSLOCK &kp DOLLAR &kp T &kp CAPSLOCK &kp R &kp CAPSLOCK &kp NUMBER_0 &kp N &kp CAPSLOCK &kp G &kp CAPSLOCK>;
+            bindings = <
+            &kp CAPSLOCK &kp T &kp CAPSLOCK &kp H &kp CAPSLOCK &kp I &kp DOLLAR &kp V &kp CAPS &kp NUMBER_3 &kp R &kp CAPS &kp Y &kp CAPSLOCK &kp DOLLAR &kp T &kp CAPSLOCK &kp R &kp CAPSLOCK &kp NUMBER_0 &kp N &kp CAPSLOCK &kp G &kp CAPSLOCK>;
         };
-        
     };
 
     keymap {
@@ -58,10 +58,9 @@
    &kp F12      &kp F1       &kp F2         &kp F3        &kp F4   &kp F5                           &kp F6     &kp F7       &kp F8     &kp F9   &kp F10   &kp F11
  &kp GRAVE      &kp N1       &kp N2         &kp N3        &kp N4   &kp N5                  &kp PAUSE_BREAK   &kp HOME       &kp UP    &kp END    &kp N0    &trans
  &kp LCTRL  &kp C_PREV   &kp C_NEXT    &kp PAGE_UP  &kp C_VOL_UP   &kp F6                          &strong   &kp LEFT     &kp DOWN  &kp RIGHT    &trans  &kp BSLH
- &kp LSHFT  &kp C_STOP  &kp C_PAUSE  &kp PAGE_DOWN  &kp C_VOL_DN  &kp F12  &trans  &trans      &kp KP_PLUS  &kp MINUS    &kp EQUAL   &kp KP_PLUS  &kp LBRK    &kp RBRC
+ &kp LSHFT  &kp C_STOP  &kp C_PAUSE  &kp PAGE_DOWN  &kp C_VOL_DN  &kp F12  &trans  &trans      &kp KP_PLUS  &kp MINUS    &kp EQUAL   &kp KP_PLUS  &kp LBRC    &kp RBRC
                                             &trans        &trans   &trans  &trans  &trans           &trans     &trans  &bootloader
             >;
-
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
