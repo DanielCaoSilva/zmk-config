@@ -15,9 +15,8 @@
             label = "new_macro";
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp H &kp LS(I) &kp DLLR &kp LS(V) &kp N3 &kp R &kp LS(Y) &kp DLLR &kp T &kp LS(R) &kp N0 &kp N &kp LS(G)>;
-        };
-}
-    macros{
+        };,
+
         one_equals_zero: one_equals_zero {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
