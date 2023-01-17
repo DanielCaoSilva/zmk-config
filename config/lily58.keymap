@@ -25,7 +25,8 @@
 *            #binding-cells = <0>;
 *            bindings = <&kp N1 &kp E &kp Q &kp U &kp A &kp L &kp S &kp N0 &kp P &kp O &kp I &kp N &kp T &kp N9 &kp R &kp E &kp P &kp E &kp A &kp T &kp I &kp N &kp G>;
 *        };
-*/    };
+*    };
+*/
 };
 
     keymap {
