@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/mouse.h>
 
 /{
     macros {
@@ -63,10 +64,10 @@
         game_layer {
             label = "Game";
             bindings = <
-          &kp ESC    &kp NUMBER_5  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                     &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6
-            &kp T         &kp TAB         &kp Q         &kp W         &kp E         &kp R                     &trans  &trans  &trans  &trans  &trans  &trans
-            &kp G    &kp CAPSLOCK         &kp A         &kp S         &kp D         &kp F                     &trans  &trans  &trans  &trans  &trans  &trans
-             &kp LEFT_CONTROL  &kp LEFT_SHIFT         &kp Z         &kp X         &kp C         &kp V      &kp B  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            &kp ESC    &kp NUMBER_5  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                   &kp F1            &kp F2         &kp F3          &kp F4  &kp F5  &kp F6
+            &kp T         &kp TAB         &kp Q         &kp W         &kp E         &kp R                     &mwh SCROLL_UP    &mkp LCLK      &mmv MOVE_UP    &mkp RCLK  &trans  &trans
+            &kp G    &kp CAPSLOCK         &kp A         &kp S         &kp D         &kp F                     &mwh SCROLL_DOWN  &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+            &kp LEFT_CONTROL  &kp LEFT_SHIFT         &kp Z         &kp X         &kp C         &kp V      &kp B  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                                  &kp LEFT_ALT  &kp LEFT_WIN        &tog 3  &kp SPACE  &trans  &trans  &trans  &trans
             >;
 
