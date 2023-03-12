@@ -11,6 +11,16 @@
 
 
 
+&mmv {
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent=<2>;
+};
+
+&mwh {
+    time-to-max-speed-ms = <750>;
+    acceleration-exponent=<1>;
+};
+
 /{
     macros {
         strong: strong {
@@ -20,12 +30,8 @@
             bindings = <&kp LS(T) &kp H &kp LS(I) &kp DLLR &kp LS(V) &kp N3 &kp R &kp LS(Y) &kp DLLR &kp T &kp LS(R) &kp N0 &kp N &kp LS(G)>;
         };
     };
-    &mmv {
-    time-to-max-speed-ms = <500>;
-    acceleration-exponent=<2>;};
-    &mwh {
-    time-to-max-speed-ms = <750>;
-    acceleration-exponent=<1>;};
+
+
     keymap {
         compatible = "zmk,keymap";
         base_layer {
