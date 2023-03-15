@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
 
+#define Base 0
+#define Left 1
+#define Right 2
+#define Game 3
 
 / {
     keymap {
