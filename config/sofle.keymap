@@ -36,7 +36,7 @@
 &kp CAPS        &kp K_UNDO    &kp C_PREV    &kp C_NEXT   &kp C_VOL_UP  &kp K_COPY                        &kp CARET        &kp LEFT   &kp DOWN  &kp RIGHT &kp RPAR  &kp BSLH
 
 &kp LEFT_SHIFT  &kp K_CUT       &kp K_MUTE    &kp C_PAUSE   &kp C_VOL_DN  &kp K_PASTE &trans       &trans   &trans          &kp MINUS &kp EQUAL &kp LBRC  &kp RBRC  &trans
-                                &trans        &trans        &tran         &trans      &kp LEFT_WIN &trans   &trans          &trans    &trans    &trans
+                                &trans        &trans        &trans         &trans      &kp LEFT_WIN &trans   &trans          &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
