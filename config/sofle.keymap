@@ -54,7 +54,7 @@
                                 &trans          &trans         &trans         &trans   &trans  &trans   &trans          &trans      &trans      &bootloader
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         game_layer {
@@ -67,7 +67,7 @@
                                 &kp LEFT_ALT  &kp LEFT_WIN  &tog 3        &kp B        &kp SPACE &mkp LCLK &mkp RCLK         &trans           &trans          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
