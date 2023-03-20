@@ -12,7 +12,7 @@
 
 
 &mmv {
-    time-to-max-speed-ms = <750>;
+    time-to-max-speed-ms = <850>;
     acceleration-exponent=<1>;
 };
 
@@ -77,8 +77,8 @@
             label = "Game";
             bindings = <
 &kp ESC             &kp NUMBER_5    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                      &kp F1            &kp F2                 &kp F3                &kp F4              &kp F5  &kp F6
-&kp T               &kp TAB         &kp Q         &kp W         &kp E         &kp R                             &trans            &mwh SCROLL_LEFT       &mmv MOVE_VERT(-3500) &mwh SCROLL_RIGHT   &trans  &trans
-&kp G               &kp CAPSLOCK    &kp A         &kp S         &kp D         &kp F                             &mwh SCROLL_UP    &mmv MOVE_HOR(-3500)   &mmv MOVE_VERT(3500)  &mmv MOVE_HOR(3500) &trans  &trans
+&kp T               &kp TAB         &kp Q         &kp W         &kp E         &kp R                             &mwh SCROLL_UP    &mwh SCROLL_LEFT       &mmv MOVE_VERT(-3000) &mwh SCROLL_RIGHT   &trans  &trans
+&kp G               &kp CAPSLOCK    &kp A         &kp S         &kp D         &kp F                             &tog 3            &mmv MOVE_HOR(-3000)   &mmv MOVE_VERT(3000)  &mmv MOVE_HOR(3000) &trans  &trans
 &kp LEFT_CONTROL    &kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp V       &kp B      &trans     &mwh SCROLL_DOWN  &trans                 &trans                &trans              &trans  &trans
                                                     &kp LEFT_ALT  &kp LEFT_WIN  &tog 3    &kp SPACE  &mkp LCLK  &mkp RCLK         &trans           &trans
             >;
