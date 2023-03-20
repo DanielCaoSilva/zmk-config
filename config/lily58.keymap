@@ -12,13 +12,13 @@
 
 
 &mmv {
-    time-to-max-speed-ms = <250>;
-    acceleration-exponent=<0>;
+    time-to-max-speed-ms = <1000>;
+    acceleration-exponent=<2>;
 };
 
 &mwh {
     time-to-max-speed-ms = <750>;
-    acceleration-exponent=<0>;
+    acceleration-exponent=<2>;
 };
 
 /{
