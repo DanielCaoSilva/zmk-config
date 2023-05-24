@@ -76,7 +76,7 @@
         game_layer {
             label = "Game";
             bindings = <
-&kp ESC           &kp N5          &kp N1    &kp N2        &kp N3        &kp N      4                      &kp F1            &kp F2                 &kp F3                &kp F4              &kp F5      &kp F6
+&kp ESC           &kp N5          &kp N1    &kp N2        &kp N3        &kp N4                            &kp F1            &kp F2                 &kp F3                &kp F4              &kp F5      &kp F6
 &kp T             &kp TAB         &kp Q     &kp W         &kp E         &kp R                             &mwh SCROLL_UP    &mwh SCROLL_LEFT       &mmv MOVE_VERT(-3000) &mwh SCROLL_RIGHT   &bt BT_PRV  &bt BT_NXT
 &kp G             &kp CAPSLOCK    &kp A     &kp S         &kp D         &kp F                             &tog 3            &mmv MOVE_HOR(-3000)   &mmv MOVE_VERT(3000)  &mmv MOVE_HOR(3000) &trans      &bt BT_CLR
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp Z     &kp X         &kp C         &kp V       &kp B      &trans     &mwh SCROLL_DOWN  &trans                 &trans                &trans              &trans      &trans
