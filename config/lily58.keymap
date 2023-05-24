@@ -50,10 +50,10 @@
         left_layer {
             label = "Left";
             bindings = <
-&kp F12    &kp F1        &kp F2        &kp F3       &kp F4        &kp F5                              &kp LS(6)        &kp LS(7)  &kp LS(8) &kp LS(9) &kp LS(0) &kp DEL
-&kp TAB    &kp K_MUTE    &kp C_PREV    &kp C_NEXT   &kp C_STOP    &kp C_VOL_UP                        &kp PAUSE_BREAK  &kp HOME   &kp UP    &kp END   &trans    &trans
-&kp CAPS   &kp LC(A)     &kp LC(S)     &kp DEL      &kp GRAVE     &kp GRAVE                           &kp BSPC         &kp LEFT   &kp DOWN  &kp RIGHT &kp BSPC  &kp BSLH
-&kp LSHFT  &kp LC(Z)     &kp LC(X)     &kp LC(C)    &kp LC(V)     &kp C_VOL_DN  &kp LEFT_WIN  &strong &trans           &kp MINUS  &kp EQUAL &kp LBRC  &kp RBRC  &trans
+&kp F12    &kp F1        &kp F2        &kp F3       &kp F4        &kp F5                              &kp LS(N6)       &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp DEL
+&kp TAB    &kp K_MUTE    &kp C_PREV    &kp C_NEXT   &kp C_STOP    &kp C_VOL_UP                        &kp PAUSE_BREAK  &kp HOME   &kp UP     &kp END    &trans     &trans
+&kp CAPS   &kp LC(A)     &kp LC(S)     &kp DEL      &kp GRAVE     &kp GRAVE                           &kp BSPC         &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC   &kp BSLH
+&kp LSHFT  &kp LC(Z)     &kp LC(X)     &kp LC(C)    &kp LC(V)     &kp C_VOL_DN  &kp LEFT_WIN  &strong &trans           &kp MINUS  &kp EQUAL  &kp LBRC   &kp RBRC   &trans
                                        &trans       &trans        &trans        &trans        &trans  &trans           &trans     &trans
             >;
 
@@ -63,8 +63,8 @@
         right_layer {
             label = "Right";
             bindings = <
-&kp F12     &kp RS(1)   &kp RS(2)     &kp RS(3)      &kp RS(4)      &kp RS(5)                             &kp F6          &kp F7      &kp F8      &kp F9       &kp F10   &kp F11
-&kp GRAVE   &kp K_MUTE  &kp C_PREV    &kp C_NEXT     &kp C_STOP     &kp C_VOL_UP                          &strong         &kp HOME    &kp UP      &kp END      &kp N0    &trans
+&kp F12     &kp RS(N1)  &kp RS(N2)    &kp RS(N3)     &kp RS(N4)     &kp RS(N5)                            &kp F6          &kp F7      &kp F8      &kp F9       &kp F10   &kp F11
+&kp GRAVE   &kp K_MUTE  &kp C_PREV    &kp C_NEXT     &kp C_STOP     &kp C_VOL_UP                          &strong         &kp HOME    &kp UP      &kp END      &kp MINUS &kp EQUAL
 &kp LCTRL   &kp LC(A)   &kp LC(S)     &kp DEL        &kp GRAVE      &kp GRAVE                             &tog 3          &kp LEFT    &kp DOWN    &kp RIGHT    &kp BSPC  &kp BSLH
 &kp LSHFT   &kp LC(Z)   &kp LC(X)     &kp LC(C)      &kp LC(V)      &kp C_VOL_DN      &trans  &trans      &kp KP_PLUS     &kp MINUS   &kp EQUAL   &kp KP_PLUS  &kp LBRC  &kp RBRC
                                       &trans         &trans         &trans            &trans  &trans      &trans          &trans      &bootloader
@@ -76,11 +76,11 @@
         game_layer {
             label = "Game";
             bindings = <
-&kp ESC           &kp NUMBER_5    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                      &kp F1            &kp F2                 &kp F3                &kp F4              &kp F5      &kp F6
-&kp T             &kp TAB         &kp Q         &kp W         &kp E         &kp R                             &mwh SCROLL_UP    &mwh SCROLL_LEFT       &mmv MOVE_VERT(-3000) &mwh SCROLL_RIGHT   &bt BT_PRV  &bt BT_NXT
-&kp G             &kp CAPSLOCK    &kp A         &kp S         &kp D         &kp F                             &tog 3            &mmv MOVE_HOR(-3000)   &mmv MOVE_VERT(3000)  &mmv MOVE_HOR(3000) &trans      &bt BT_CLR
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp V       &kp B      &trans     &mwh SCROLL_DOWN  &trans                 &trans                &trans              &trans      &trans
-                                                &kp LEFT_ALT  &kp LEFT_WIN  &tog 3      &kp SPACE  &mkp LCLK  &mkp RCLK         &trans                 &trans
+&kp ESC           &kp N5          &kp N1    &kp N2        &kp N3        &kp N      4                      &kp F1            &kp F2                 &kp F3                &kp F4              &kp F5      &kp F6
+&kp T             &kp TAB         &kp Q     &kp W         &kp E         &kp R                             &mwh SCROLL_UP    &mwh SCROLL_LEFT       &mmv MOVE_VERT(-3000) &mwh SCROLL_RIGHT   &bt BT_PRV  &bt BT_NXT
+&kp G             &kp CAPSLOCK    &kp A     &kp S         &kp D         &kp F                             &tog 3            &mmv MOVE_HOR(-3000)   &mmv MOVE_VERT(3000)  &mmv MOVE_HOR(3000) &trans      &bt BT_CLR
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp Z     &kp X         &kp C         &kp V       &kp B      &trans     &mwh SCROLL_DOWN  &trans                 &trans                &trans              &trans      &trans
+                                            &kp LEFT_ALT  &kp LEFT_WIN  &tog 3      &kp SPACE  &mkp LCLK  &mkp RCLK         &trans                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
