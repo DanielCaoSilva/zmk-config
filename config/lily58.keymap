@@ -57,9 +57,9 @@
             label = "Left";
             bindings = <
 &kp F12    &kp F1        &kp F2        &kp F3       &kp F4        &kp F5                                          &kp LS(N6)       &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp DEL
-&kp TAB    &kp K_MUTE    &kp C_PREV    &kp C_NEXT   &kp C_STOP    &kp C_VOL_UP                                    &kp PAUSE_BREAK  &kp HOME   &kp UP     &kp END    &kp MINUS  &kp EQUAL
-&kp CAPS   &kp LC(A)     &kp LC(S)     &kp DEL      &kp GRAVE     &kp GRAVE                                       &kp BSPC         &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC   &kp BSLH
-&kp LSHFT  &kp LC(Z)     &kp LC(X)     &kp LC(C)    &kp LC(V)     &kp C_VOL_DN      &kp LGUI   &strong            &trans           &kp MINUS  &kp EQUAL  &kp LBRC   &kp RBRC   &trans
+&kp TAB    &kp K_MUTE    &kp C_PREV    &kp C_NEXT   &kp C_STOP    &kp C_VOL_UP                                    &kp PG_UP        &kp HOME   &kp UP     &kp END    &kp MINUS  &kp EQUAL
+&kp CAPS   &kp LC(A)     &kp LC(S)     &kp DEL      &kp GRAVE     &kp GRAVE                                       &tog 3           &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC   &kp BSLH
+&kp LSHFT  &kp LC(Z)     &kp LC(X)     &kp LC(C)    &kp LC(V)     &kp C_VOL_DN      &kp LGUI   &strong            &kp PG_DN        &kp MINUS  &kp EQUAL  &kp LBRC   &kp RBRC   &trans
                                        &trans       &trans        &trans            &trans     &trans             &trans           &trans     &trans
             >;
 
@@ -70,9 +70,9 @@
             label = "Right";
             bindings = <
 &kp F12     &kp RS(N1)  &kp RS(N2)    &kp RS(N3)     &kp RS(N4)     &kp RS(N5)                                    &kp F6          &kp F7      &kp F8      &kp F9       &kp F10   &kp F11
-&kp GRAVE   &kp K_MUTE  &kp C_PREV    &kp C_NEXT     &kp C_STOP     &kp C_VOL_UP                                  &strong         &kp HOME    &kp UP      &kp END      &kp MINUS &kp EQUAL
+&kp GRAVE   &kp K_MUTE  &kp C_PREV    &kp C_NEXT     &kp C_STOP     &kp C_VOL_UP                                  &kp PG_UP       &kp HOME    &kp UP      &kp END      &kp MINUS &kp EQUAL
 &kp LCTRL   &kp LC(A)   &kp LC(S)     &kp DEL        &kp GRAVE      &kp GRAVE                                     &tog 3          &kp LEFT    &kp DOWN    &kp RIGHT    &kp BSPC  &kp BSLH
-&kp LSHFT   &kp LC(Z)   &kp LC(X)     &kp LC(C)      &kp LC(V)      &kp C_VOL_DN      &trans  &trans              &kp KP_PLUS     &kp MINUS   &kp EQUAL   &kp KP_PLUS  &kp LBRC  &kp RBRC
+&kp LSHFT   &kp LC(Z)   &kp LC(X)     &kp LC(C)      &kp LC(V)      &kp C_VOL_DN      &trans  &trans              &kp PG_DN       &kp MINUS   &kp EQUAL   &kp LBRC     &kp LBRC  &kp RBRC
                                       &trans         &trans         &trans            &trans  &trans              &trans          &trans      &trans
             >;
 
