@@ -25,8 +25,6 @@ include:
     shield: hillside46_left
   - board: seeeduino_xiao_ble
     shield: hillside46_right
-  - board: seeeduino_xiao_ble
-    sheild: settings_reset
   # - board: nice_nano_v2 
   #   shield: sofle_left nice_view_adapter nice_view
   # - board: nice_nano_v2
