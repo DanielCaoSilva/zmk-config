@@ -103,11 +103,11 @@
         one_two_layer {
             label = "1and2";
             bindings = <
-&kp F12     &kp RS(N1)   &kp RS(N2)    &kp RS(N3)    &kp RS(N4)     &kp RS(N5)                                    &kp F6          &kp F7          &kp F8           &kp F9           &kp F10   &kp F11
-&kp GRAVE   &kp LGUI(Q)  &kp LGUI(W)   &kp LGUI(E)   &kp LGUI(R)    &kp LGUI(T)                                   &kp PG_UP       &kp HOME        &kp LGUI(UP)     &kp END          &kp MINUS &kp EQUAL
-&kp LCTRL   &kp LGUI(A)  &kp LGUI(S)   &kp LGUI(D)   &kp LGUI(F)    &kp LGUI(G)                                   &tog 3          &kp LGUI(LEFT)  &kp LGUI(DOWN)   &kp LGUI(RIGHT)  &kp BSPC  &kp BSLH
-&kp LSHFT   &kp LGUI(Z)  &kp LGUI(X)   &kp LGUI(C)   &kp LGUI(V)    &kp LGUI(B)       &trans  &trans              &kp PG_DN       &kp MINUS       &kp EQUAL        &kp LBRC         &kp LBRC  &kp RBRC
-                                       &trans        &trans         &trans            &trans  &trans              &trans          &trans          &trans
+&kp F12     &kp RS(N1)  &kp RS(N2)  &kp RS(N3)  &kp RS(N4)   &kp RS(N5)                                 &kp F6          &kp F7        &kp F8         &kp F9         &kp F10   &kp F11
+&kp GRAVE   &kp LG(Q)   &kp LG(W)   &kp LG(E)   &kp LG(R)    &kp LG(T)                                  &kp PG_UP       &kp HOME      &kp LG(UP)     &kp END        &kp MINUS &kp EQUAL
+&kp LCTRL   &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)    &kp LG(G)                                  &tog 3          &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(RIGHT)  &kp BSPC  &kp BSLH
+&kp LSHFT   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)    &kp LG(B)       &trans  &trans             &kp PG_DN       &kp MINUS     &kp EQUAL      &kp LBRC       &kp LBRC  &kp RBRC
+                                    &trans      &trans       &trans          &trans  &trans             &trans          &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
