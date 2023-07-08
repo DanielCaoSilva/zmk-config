@@ -103,10 +103,10 @@
         one_two_layer {
             label = ">>`o`<<";
             bindings = <
-&kp F12     &kp RS(N1)  &kp RS(N2)  &kp RS(N3)  &kp RS(N4)   &kp RS(N5)                                 &kp F6          &kp F7        &kp F8         &kp F9         &kp F10   &kp F11
-&kp TAB     &kp LG(Q)   &kp LG(W)   &kp LG(E)   &kp LG(R)    &kp LG(T)                                  &kp LG(PG_UP)   &kp LG(HOME)  &kp LG(UP)     &kp LG(END)    &kp MINUS &kp EQUAL
-&kp LCTRL   &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)    &kp LG(G)                                  &kp LG(H)       &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(RIGHT)  &kp BSPC  &kp BSLH
-&kp LSHFT   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)    &kp LG(B)       &trans  &trans             &kp LG(PG_DN)   &kp MINUS     &kp EQUAL      &kp LBRC       &kp LBRC  &kp RBRC
+&kp LA(F4)  &kp RS(N1)  &kp RS(N2)  &kp RS(N3)  &kp RS(N4)   &kp LG(LA(Y))                              &kp F6      &kp F7        &kp F8         &kp F9         &kp F10   &kp F11
+&kp TAB     &kp LG(Q)   &kp LG(W)   &kp LG(E)   &kp LG(R)    &kp LG(T)                                  &kp LG(Y)   &kp LG(PG_DN) &kp LG(UP)     &kp LG(PG_UP)  &kp MINUS &kp EQUAL
+&kp LCTRL   &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)    &kp LG(G)                                  &kp LG(H)   &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(RIGHT)  &kp RALT  &kp RALT
+&kp LSHFT   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)    &kp LG(B)       &trans  &trans             &kp LG(N)   &kp LG(M)     &kp LG(EQUAL)  &kp LBRC       &kp LBRC  &kp RBRC
                                     &trans      &trans       &trans          &trans  &trans             &trans          &trans        &trans
             >;
 
