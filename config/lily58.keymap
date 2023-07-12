@@ -62,7 +62,7 @@
         };
 
         left_layer {
-            label = "(~__~<<) ";
+            label = "(~__~<<)";
             bindings = <
 &kp F12    &kp F1        &kp F2        &kp F3       &kp F4        &kp F5                                          &kp LS(N6)       &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp DEL
 &kp TAB    &kp LC(Q)     &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(T)                                       &kp PG_UP        &kp HOME   &kp UP     &kp END    &kp MINUS  &kp EQUAL
@@ -75,7 +75,7 @@
         };
 
         right_layer {
-            label = " (>>~__~)";
+            label = "(>>~__~)";
             bindings = <
 &kp F12     &kp RS(N1)  &kp RS(N2)    &kp RS(N3)     &kp RS(N4)     &kp RS(N5)                                    &kp F6          &kp F7      &kp F8      &kp F9       &kp F10   &kp F11
 &kp TAB     &kp LC(Q)   &kp LC(W)     &kp LC(E)      &kp LC(R)      &kp LC(T)                                     &kp PG_UP       &kp HOME    &kp UP      &kp END      &kp MINUS &kp EQUAL
@@ -88,7 +88,7 @@
         };
 
         game_layer {
-            label = "[>o_o<]";
+            label = " [>o_o<]";
             bindings = <
 &kp ESC    &kp N5     &kp N1    &kp N2        &kp N3        &kp N4                                                &kp F1         &kp F2                 &kp F3                &kp F4              &kp F5      &kp F6
 &kp T      &kp TAB    &kp Q     &kp W         &kp E         &kp R                                                 &kp UP         &mwh SCROLL_LEFT       &mmv MOVE_VERT(-3000) &mwh SCROLL_RIGHT   &bt BT_PRV  &bt BT_NXT
