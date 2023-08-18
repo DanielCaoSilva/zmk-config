@@ -15,3 +15,7 @@ ZMK Forks:
 - ufan: For the pmw3610 driver
 - urob: For mouse keys support
 - infused-kim: Extensive Sofle Support
+
+Links: 
+- `https://zmk.dev/docs`
+- `https://github.com/zmkfirmware/zmk`
