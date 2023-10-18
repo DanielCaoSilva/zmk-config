@@ -52,11 +52,11 @@
         base_layer {
             label = ">>~__~<<";
             bindings = <
-&kp ESC     &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                                         &kp N6    &kp N7     &kp N8     &kp N9   &kp N0   &kp BSPC
-&kp TAB     &kp Q   &kp W   &kp E     &kp R     &kp T                                                          &kp Y     &kp U      &kp I      &kp O    &kp P    &kp LBKT
-&kp LCTRL   &kp A   &kp S   &kp D     &kp F     &kp G                                                          &kp H     &kp J      &kp K      &kp L    &kp SEMI &kp SQT
-&kp LSHFT   &kp Z   &kp X   &kp C     &kp V     &kp B                        &kp ESC     &kp MINUS             &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH &kp RBKT
-                            &kp LGUI  &kp LALT  &mo 1                        &kp RET     &kp SPACE             &mo 2     &kp EQUAL  &kp CAPS
+&kp ESC     &kp N1      &kp N2    &kp N3    &kp N4    &kp N5                                                  &kp N6    &kp N7     &kp N8     &kp N9   &kp N0       &kp BSPC
+&kp TAB     &kp Q       &kp W     &kp E     &kp R     &kp T                                                   &kp Y     &kp U      &kp I      &kp O    &kp P        &kp LBKT
+&kp LCTRL   &kp A       &kp S     &kp D     &kp F     &kp G                                                   &kp H     &kp J      &kp K      &kp L    &kp SEMI     &kp SQT
+&kp LSHFT   &kp Z       &kp X     &kp C     &kp V     &kp B                 &kp ESC     &kp MINUS             &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH     &kp RBKT
+                                  &kp LGUI  &kp LALT  &mo 1                 &kp RET     &kp SPACE             &mo 2     &kp EQUAL  &kp CAPS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -65,11 +65,11 @@
         left_layer {
             label = "(~__~<<)";
             bindings = <
-&kp F12    &kp F1        &kp F2        &kp F3       &kp F4        &kp F5                                          &kp LS(N6)       &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp DEL
-&kp TAB    &kp LC(Q)     &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(T)                                       &kp PG_UP        &kp HOME   &kp UP     &kp END    &kp MINUS  &kp EQUAL
-&kp LCTRL  &kp LC(A)     &kp LC(S)     &kp DEL      &kp GRAVE     &kp C_VOL_UP                                    &kp LA(TAB)      &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC   &kp BSLH
-&kp LSHFT  &kp LC(Z)     &kp LC(X)     &kp LC(C)    &kp LC(V)     &kp C_VOL_DN      &trans     &strong            &kp PG_DN        &kp MINUS  &kp EQUAL  &kp LBRC   &kp RBRC   &trans
-                                       &trans       &trans        &trans            &trans     &trans             &trans           &trans     &trans
+&kp F12    &kp F1       &kp F2        &kp F3       &kp F4        &kp F5                                          &kp LS(N6)       &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp DEL
+&kp TAB    &kp LC(Q)    &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(T)                                       &kp PG_UP        &kp HOME   &kp UP     &kp END    &kp MINUS  &kp EQUAL
+&kp LCTRL  &lt 5 LC(A)  &kp LC(S)     &kp DEL      &kp GRAVE     &kp C_VOL_UP                                    &kp LA(TAB)      &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC   &kp BSLH
+&kp LSHFT  &kp LC(Z)    &kp LC(X)     &kp LC(C)    &kp LC(V)     &kp C_VOL_DN      &trans     &strong            &kp PG_DN        &kp MINUS  &kp EQUAL  &kp LBRC   &kp RBRC   &trans
+                                      &trans       &trans        &trans            &trans     &trans             &trans           &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -80,8 +80,8 @@
             bindings = <
 &kp F12     &kp RS(N1)  &kp RS(N2)    &kp RS(N3)     &kp RS(N4)     &kp RS(N5)                                    &kp F6          &kp F7      &kp F8      &kp F9       &kp F10   &kp F11
 &kp TAB     &kp LC(Q)   &kp LC(W)     &kp LC(E)      &kp LC(R)      &kp LC(T)                                     &kp PG_UP       &kp HOME    &kp UP      &kp END      &kp MINUS &kp EQUAL
-&kp LCTRL   &kp LC(A)   &kp LC(S)     &kp DEL        &kp GRAVE      &kp C_VOL_UP                                  &kp LA(TAB)     &kp LEFT    &kp DOWN    &kp RIGHT    &tog 3    &kp BSLH
-&kp LSHFT   &kp LC(Z)   &kp LC(X)     &kp LC(C)      &kp LC(V)      &kp C_VOL_DN      &trans  &trans              &kp PG_DN       &kp MINUS   &kp EQUAL   &kp LBRC     &kp LBRC  &kp RBRC
+&kp LCTRL   &kp LC(A)   &kp LC(S)     &kp DEL        &kp GRAVE      &kp C_VOL_UP                                  &kp LA(TAB)     &kp LEFT    &kp DOWN    &kp RIGHT    &kp BSPC  &kp BSLH
+&kp LSHFT   &kp LC(Z)   &kp LC(X)     &kp LC(C)      &kp LC(V)      &kp C_VOL_DN      &trans  &trans              &kp PG_DN       &kp MINUS   &kp EQUAL   &tog 3       &kp LBRC  &kp RBRC
                                       &trans         &trans         &trans            &trans  &trans              &trans          &trans      &trans
             >;
 
@@ -91,11 +91,11 @@
         game_layer {
             label = " [>o_o<]";
             bindings = <
-&kp ESC    &kp N5     &kp N1    &kp N2        &kp N3        &kp N4                                                &kp F1         &kp F2                 &kp F3                &kp F4              &kp F5      &kp F6
-&kp T      &kp TAB    &kp Q     &kp W         &kp E         &kp R                                                 &kp UP         &mwh SCROLL_LEFT       &mmv MOVE_VERT(-3000) &mwh SCROLL_RIGHT   &bt BT_PRV  &bt BT_NXT
-&kp G      &kp CAPS   &kp A     &kp S         &kp D         &kp F                                                 &kp LG(W)      &mmv MOVE_HOR(-3000)   &mmv MOVE_VERT(3000)  &mmv MOVE_HOR(3000) &tog 3      &bt BT_CLR
-&kp LCTRL  &kp LSHFT  &kp Z     &kp X         &kp C         &kp V                     &kp B      &mkp LGUI        &kp DOWN       &trans                 &trans                &trans              &trans      &bootloader
-                                &kp LEFT_ALT  &kp LEFT_WIN  &tog 3                    &kp SPACE  &mkp LCLK        &mkp RCLK      &kp RA(TAB)            &trans
+&kp ESC    &kp N5     &kp N1    &kp N2        &kp N3        &kp N4                                             &kp F1         &kp F2                 &kp F3                &kp F4              &kp F5      &kp F6
+&kp T      &kp TAB    &kp Q     &kp W         &kp E         &kp R                                              &kp UP         &mwh SCROLL_LEFT       &mmv MOVE_VERT(-3000) &mwh SCROLL_RIGHT   &bt BT_PRV  &bt BT_NXT
+&kp G      &kp CAPS   &kp A     &kp S         &kp D         &kp F                                              &kp LG(W)      &mmv MOVE_HOR(-3000)   &mmv MOVE_VERT(3000)  &mmv MOVE_HOR(3000) &tog 3      &bt BT_CLR
+&kp LCTRL  &kp LSHFT  &kp Z     &kp X         &kp C         &kp V                  &kp B      &mkp LGUI        &kp DOWN       &trans                 &trans                &trans              &trans      &bootloader
+                                &kp LEFT_ALT  &kp LEFT_WIN  &tog 3                 &kp SPACE  &mkp LCLK        &mkp RCLK      &kp RA(TAB)            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -109,6 +109,19 @@
 &kp LCTRL   &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)    &kp LG(G)                           &kp LG(H)   &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(RIGHT)  &trans      &kp RALT
 &kp LSHFT   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)    &kp LG(B)       &trans  &trans      &kp LG(N)   &kp LG(M)     &kp LG(EQUAL)  &kp LBRC       &kp LBRC    &kp RBRC
                                     &trans      &trans       &trans          &trans  &trans      &trans      &trans        &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        caps_layer {
+            label = "^^~__~^^";
+            bindings = <
+&kp ESC     &kp N1      &kp N2    &kp N3    &kp N4    &kp N5                                                  &kp LS(N6)    &kp N7         &kp N8     &kp N9   &kp N0       &kp BSPC
+&kp TAB     &kp Q       &kp W     &kp E     &kp R     &kp T                                                   &kp LS(Y)     &kp LS(U)      &kp I      &kp O    &kp P        &kp LBKT
+&kp LCTRL   &kp A       &kp S     &kp D     &kp F     &kp G                                                   &kp LS(H)     &kp LS(J)      &kp K      &kp L    &kp SEMI     &kp SQT
+&kp LSHFT   &kp Z       &kp X     &kp C     &kp V     &kp B                 &kp ESC     &kp MINUS             &kp LS(N)     &kp LS(M)      &kp COMMA  &kp DOT  &kp FSLH     &kp RBKT
+                                  &kp LGUI  &kp LALT  &trans                &kp RET     &kp SPACE             &trans        &kp EQUAL      &kp CAPS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
