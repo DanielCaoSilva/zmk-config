@@ -68,11 +68,11 @@
         left_layer {
             label = "(~__~<<)";
             bindings = <
-&kp F12    &kp F1       &kp F2        &kp F3       &kp F4        &kp F5                                          &kp LS(N6)       &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0)  &kp DEL
-&kp TAB    &kp LC(Q)    &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(T)                                       &kp PG_UP        &kp HOME   &kp UP     &kp END    &kp MINUS   &kp EQUAL
-&kp LCTRL  &lt 5 LC(A)  &kp LC(S)     &kp DEL      &kp LC(GRAVE) &kp C_VOL_UP                                    &kp LA(TAB)      &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC    &kp BSLH
-&kp LSHFT  &kp LC(Z)    &kp LC(X)     &kp LC(C)    &kp LC(V)     &kp C_VOL_DN      &trans     &strong            &kp PG_DN        &kp MINUS  &kp EQUAL  &kp LBRC   &kp RBRC    &trans
-                                      &trans       &trans        &trans            &trans     &trans             &trans           &trans     &trans
+&kp F12    &kp F1       &kp F2        &kp F3       &kp F4        &kp F5                                          &kp LS(N6)       &kp LS(N7)      &kp LS(N8)     &kp LS(N9) &kp LS(N0)  &kp DEL
+&kp TAB    &kp LC(Q)    &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(T)                                       &kp PG_UP        &kp HOME        &kp UP         &kp END    &kp MINUS   &kp EQUAL
+&kp LCTRL  &lt 5 LC(A)  &kp LC(S)     &kp DEL      &kp LC(GRAVE) &kp C_VOL_UP                                    &kp LA(TAB)      &kp LEFT        &kp DOWN       &kp RIGHT  &kp BSPC    &kp BSLH
+&kp LSHFT  &kp LC(Z)    &kp LC(X)     &kp LC(C)    &kp LC(V)     &kp C_VOL_DN      &trans     &strong            &kp PG_DN        &kp LS(MINUS)   &kp LS(EQUAL)  &kp LBRC   &kp RBRC    &trans
+                                      &trans       &trans        &trans            &trans     &trans             &trans           &trans          &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
