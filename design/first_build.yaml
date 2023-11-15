@@ -1,0 +1,87 @@
+points:
+  zones:
+    matrix:
+      columns:
+        pinky:
+        ring:
+          stagger: 12
+        middle:
+          stagger: 5
+        index:
+          stagger: -6
+        inner:
+          stagger: -2
+      rows:
+        bottom:
+        home:
+        top:
+    thumbfan:
+      anchor:
+        # starting point fromt the other zones
+        ref: matrix_inner_bottom
+        # u = keycap unit = 19mm
+        shift: [-7, -u]
+      columns:
+        near:
+        home:
+        far:
+      rows:
+        thumb:
+  mirror:
+    # the mirror reference
+    ref: matrix_pinky_home
+    # what the distance should be between it and its mirrored counterpart
+    distance: 223
+outlines.exports:
+  plate:
+    - type: keys
+      side: both
+      # keycap = 18, then a 1mm gap
+      # plus a 8mm margin on both sides
+      size: 18 + 2 * (1+8)
+      bevel: 5
+    - type: polygon
+      points:
+        - ref: matrix_middle_home
+          shift: [0, 10]
+        - ref: mirror_matrix_middle_home
+          shift: [0, 10]
+        - ref: mirror_thumbfan_far_thumb
+          shift: [18, 13]
+        - ref: thumbfan_far_thumb
+          shift: [18, 13]
+      operation: add # default
+  filleted:
+    - type: outline
+      name: plate
+      fillet: 2
+  final:
+    - filleted
+    - type: keys
+      side: both
+      size: 18
+      operation: subtract
+cases.simple:
+  - name: final
+    extrude: 5
+points.key.footprints:
+  switch:
+    type: choc
+    nets:
+      from: =name
+      to: GND
+pcbs.example:
+  outlines.edge:
+    outline: filleted
+    # this is how kicad calls it
+    layer: Edge.Cuts
+  footprints.mcu:
+    type: promicro
+    anchor:
+      # multipe references
+      # are averaged, so center
+      ref:
+        - matrix_inner_top
+        - mirror_matrix_inner_top
+      rotate: -90
+      shift: [0, -20]
