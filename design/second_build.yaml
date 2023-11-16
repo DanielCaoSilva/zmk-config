@@ -1,0 +1,54 @@
+points:
+  zones:
+    matrix:
+      columns:
+        outer:
+          key.splay: -5
+        pinky:
+          key.stagger: 2
+        ring:
+          key.stagger: 12
+        middle:
+          key.stagger: 5
+        index:
+          key.stagger: -6
+        inner:
+          key.stagger: -2
+
+      rows:
+        bottom:
+        home:
+        top:
+    thumbfan:
+      anchor:
+        # starting point fromt the other zones
+        ref: matrix_inner_bottom
+        # u = keycap unit = 19mm
+        shift: [-39+1, -u+3]
+      columns:
+        inner:
+          key.splay: -4
+          key.stagger: -1
+        inner2:
+          key.stagger: -2
+        near:
+          key.stagger: 1
+        home:
+          key.stagger: -u+11
+        far:
+          key.stagger: 10
+          key.shift: [-u, 10]
+      rows:
+        thumb:
+  mirror:
+    # the mirror reference
+    ref: matrix_pinky_home
+    # what the distance should be between it and its mirrored counterpart
+    distance: 300
+
+points.key.footprints:
+  switch:
+    type: choc
+    nets:
+      from: =name
+      to: GND
