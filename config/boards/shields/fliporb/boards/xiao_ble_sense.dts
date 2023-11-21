@@ -1,0 +1,20 @@
+// xiao_ble_sense.dts
+#include <dt-bindings/zmk/mouse.h>
+
+&spi1 {
+    cs-gpios = <&gpio0 31 GPIO_ACTIVE_LOW>; // Update with correct CS GPIO pin
+    pmw3610@0 {
+        compatible = "pixart,pmw3610";
+        reg = <0>;
+        label = "PMW3610";
+        spi-max-frequency = <1000000>;
+        // Define other sensor configurations as required
+    };
+};
+
+&zmk_mouse_sensor {
+    compatible = "zmk,mouse-sensor";
+    sensor = <&pmw3610>;
+    dpi = <800>; // Set the desired DPI
+    // Include additional sensor settings if necessary
+};
