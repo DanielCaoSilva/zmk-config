@@ -104,11 +104,11 @@
         gui_layer {
             label = ">>`o`<<";
             bindings = <
-&kp LA(F4)  &kp RS(N1)  &kp RS(N2)  &kp RS(N3)  &kp RS(N4)   &kp LG(N5)                          &kp LG(N6)  &kp LG(N7)    &kp LG(N8)     &kp LG(N9)     &kp LG(N0)  &kp LA(F4)
-&kp TAB     &kp LG(Q)   &kp LG(W)   &kp LG(E)   &kp LG(R)    &kp LG(T)                           &kp LG(Y)   &kp LG(PG_DN) &kp LG(UP)     &kp LG(PG_UP)  &kp MINUS   &kp EQUAL
-&kp LCTRL   &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)    &kp LG(G)                           &kp LG(H)   &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(RIGHT)  &trans      &kp RALT
-&kp LSHFT   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)    &kp LG(B)       &trans  &trans      &kp LG(N)   &kp LG(M)     &kp LG(EQUAL)  &kp LBRC       &kp LBRC    &kp RBRC
-                                    &trans      &trans       &trans          &trans  &trans      &trans      &trans        &trans
+&kp LA(F4)  &kp RS(N1)  &kp RS(N2)  &kp RS(N3)  &kp RS(N4)   &kp LG(LA(Y))                              &kp F6      &kp F7        &kp F8         &kp F9         &kp F10   &kp F11
+&kp TAB     &kp LG(Q)   &kp LG(W)   &kp LG(E)   &kp LG(R)    &kp LG(T)                                  &kp LG(Y)   &kp LG(PG_DN) &kp LG(UP)     &kp LG(PG_UP)  &kp MINUS &kp EQUAL
+&kp LCTRL   &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)    &kp LG(G)                                  &kp LG(H)   &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(RIGHT)  &kp LG(RALT)  &kp RALT
+&kp LSHFT   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)    &kp LG(B)       &trans  &trans             &kp LG(N)   &kp LG(M)     &kp LG(EQUAL)  &kp LBRC       &kp LBRC  &kp RBRC
+                                    &trans      &trans       &trans          &trans  &trans             &trans          &trans        &tran
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
