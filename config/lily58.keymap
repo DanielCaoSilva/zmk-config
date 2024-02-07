@@ -72,7 +72,7 @@
 &kp TAB    &kp LC(Q)    &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(T)                                       &kp PG_UP        &kp HOME        &kp UP         &kp END    &kp MINUS   &kp EQUAL
 &kp LCTRL  &lt 5 LC(A)  &kp LC(S)     &kp DEL      &kp LC(GRAVE) &kp C_VOL_UP                                    &kp LA(TAB)      &kp LEFT        &kp DOWN       &kp RIGHT  &kp BSPC    &kp BSLH
 &kp LSHFT  &kp LC(Z)    &kp LC(X)     &kp LC(C)    &kp LC(V)     &kp C_VOL_DN      &trans     &strong            &kp PG_DN        &kp LS(MINUS)   &kp LS(EQUAL)  &kp LBRC   &kp RBRC    &trans
-                                      &trans       &trans        &trans            &trans     &trans             &trans           &trans          &trans
+                                      &trans       &trans        &trans            &trans     &kp LS(MINUS)      &trans           &trans          &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
@@ -130,7 +130,7 @@
             bindings = <
 &kp ESC     &kp N1      &kp N2    &kp N3    &kp N4    &kp N5                                              &kp N6    &kp N7         &kp N8         &kp N9   &kp N0       &kp BSPC
 &kp TAB     &kp Q       &kp W     &kp E     &kp R     &kp T                                               &kp Y     &kp U          &kp I          &kp O    &kp P        &kp LBKT
-&kp LSHFT   &kp A       &kp S     &kp D     &kp F     &kp G                                               &kp H     &kp MINUS      &kp EQUAL      &kp L    &kp SEMI     &kp SQT
+&kp LSHFT   &kp A       &kp S     &kp D     &kp LSHFT     &kp G                                               &kp H     &kp LS(MINUS)  &kp LS(EQUAL)  &kp L    &kp SEMI     &kp SQT
 &kp LCTRL   &kp Z       &kp X     &kp C     &kp V     &kp B             &kp ESC     &kp MINUS             &kp N     &kp M          &kp COMMA      &kp DOT  &kp FSLH     &kp RBKT
                                   &trans    &trans    &trans            &kp RET     &kp SPACE             &trans    &trans     &trans
             >;
