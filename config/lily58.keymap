@@ -16,10 +16,8 @@
     acceleration-exponent=<1>;
 };
 
-&mwh {
-    time-to-max-speed-ms = <1500>;
-    acceleration-exponent=<1>;
-};
+// &mwh {time-to-max-speed-ms = <1500>;acceleration-exponent=<1>;};
+// &mwh SCROLL_LEFT &mwh SCROLL_RIGHT
 
 &mt {
     tapping-term-ms = <200>;
@@ -93,7 +91,7 @@
             label = " [>o_o<]";
             bindings = <
 &kp ESC     &kp N5     &kp N1    &kp N2        &kp N3        &kp N4                                  &kp F1         &kp F2                 &kp F3                &kp F4              &kp F5      &kp F6
-&kp T       &kp TAB    &kp Q     &kp W         &kp E         &kp R                                   &kp UP         &mwh SCROLL_LEFT       &mmv MOVE_VERT(-3000) &mwh SCROLL_RIGHT   &bt BT_PRV  &bt BT_NXT
+&kp T       &kp TAB    &kp Q     &kp W         &kp E         &kp R                                   &kp UP         &kp HOME               &mmv MOVE_VERT(-3000) &kp END             &bt BT_PRV  &bt BT_NXT
 &kp G       &kp CAPS   &kp A     &kp S         &kp D         &kp F                                   &kp LG(W)      &mmv MOVE_HOR(-3000)   &mmv MOVE_VERT(3000)  &mmv MOVE_HOR(3000) &tog 3      &bt BT_CLR
 &kp LCTRL   &kp LSHFT  &kp Z     &kp X         &kp C         &kp V        &kp B      &mkp LGUI       &kp DOWN       &trans                 &trans                &trans              &trans      &bootloader
                                  &kp LEFT_ALT  &kp LEFT_WIN  &tog 3       &kp SPACE  &mkp LCLK       &mkp RCLK      &kp RA(TAB)            &trans
