@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: urob
-      url-base: https://github.com/urob
-    - name: infused-kim
-      url-base: https://github.com/infused-kim
-    - name: ufan
-      url-base: https://github.com/ufan
+    # - name: urob
+    #   url-base: https://github.com/urob
+    # - name: infused-kim
+    #   url-base: https://github.com/infused-kim
+    # - name: ufan
+    #   url-base: https://github.com/ufan
   projects:
     - name: zmk
-      remote: urob
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:

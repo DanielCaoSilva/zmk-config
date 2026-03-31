@@ -7,7 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 
 
@@ -93,7 +93,7 @@
 &kp ESC     &kp N5     &kp N1    &kp N2        &kp N3        &kp N4                                  &kp F1         &kp F2                 &kp F3                 &kp F4              &kp F5      &kp F6
 &kp T       &kp TAB    &kp Q     &kp W         &kp E         &kp R                                   &kp UP         &kp HOME               &mmv MOVE_VERT(-3000)  &kp END             &bt BT_PRV  &bt BT_NXT
 &kp G       &kp CAPS   &kp A     &kp S         &kp D         &kp F                                   &kp LG(W)      &mmv MOVE_HOR(-3000)   &mmv MOVE_VERT(3000)   &mmv MOVE_HOR(3000) &tog 3      &bt BT_CLR
-&kp LCTRL   &kp LSHFT  &kp Z     &kp X         &kp C         &kp V        &kp B      &mkp LGUI       &kp DOWN       &trans                 &trans                 &trans              &trans      &bootloader
+&kp LCTRL   &kp LSHFT  &kp Z     &kp X         &kp C         &kp V        &kp B      &kp LGUI       &kp DOWN       &trans                 &trans                 &trans              &trans      &bootloader
                                  &kp LEFT_ALT  &kp LEFT_WIN  &tog 3       &kp SPACE  &mkp LCLK       &mkp RCLK      &kp RA(TAB)            &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -106,7 +106,7 @@
 &kp TAB     &kp LG(Q)   &kp LG(W)   &kp LG(E)   &kp LG(R)    &kp LG(T)                                  &kp LG(Y)   &kp LG(PG_DN) &kp LG(UP)     &kp LG(PG_UP)  &kp MINUS &kp EQUAL
 &kp LCTRL   &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)    &kp LG(G)                                  &kp LG(H)   &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(RIGHT)  &kp LG(RALT)  &kp RALT
 &kp LSHFT   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)    &kp LG(B)       &trans  &trans             &kp LG(N)   &kp LG(M)     &kp LG(EQUAL)  &kp LBRC       &kp LBRC  &kp RBRC
-                                    &trans      &trans       &trans          &trans  &trans             &trans          &trans        &tran
+                                    &trans      &trans       &trans          &trans  &trans             &trans          &trans        &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
